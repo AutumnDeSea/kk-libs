@@ -1,0 +1,1 @@
+{"version":3,"file":"inex.js","sources":["index.ts"],"sourcesContent":["function kkCore() {\n    console.log('我是core')\n}\nexport default kkCore\n"],"names":["console","log"],"mappings":"eAAA,WACIA,QAAQC,IAAI"}

@@ -1,0 +1,22 @@
+{
+  "name": "@kk/core",
+  "version": "1.0.0",
+  "description": "核心仓库",
+  "author": "Konglili <1337026037@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/inex.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "http://127.0.0.0.1:4837/"
+  },
+  "scripts": {
+    "dev": "microbundle"
+  }
+}

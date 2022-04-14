@@ -1,0 +1,1 @@
+{"version":3,"file":"inex.umd.js","sources":["index.ts"],"sourcesContent":["function kkCore() {\n    console.log('我是core')\n}\nexport default kkCore\n"],"names":["console","log"],"mappings":"8NAAA,WACIA,QAAQC,IAAI"}

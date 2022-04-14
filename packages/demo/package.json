@@ -1,0 +1,25 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "author": "Konglili <1337026037@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "src/inex.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "http://127.0.0.0.1:4837/"
+  },
+  "scripts": {
+    "dev": "microbundle"
+  },
+  "dependencies": {
+    "core": "workspace:npm:@kk/core@^1.0.0"
+  }
+}
