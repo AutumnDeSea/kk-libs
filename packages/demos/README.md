@@ -1,11 +1,11 @@
-# `kk-core`
+# `core`
 
 > TODO: description
 
 ## Usage
 
 ```
-const kkCore = require('kk-core');
+const core = require('core');
 
 // TODO: DEMONSTRATE API
 ```

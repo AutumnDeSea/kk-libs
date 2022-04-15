@@ -1,1 +1,0 @@
-{"version":3,"file":"inex.esm.js","sources":["index.ts"],"sourcesContent":["function kkCore() {\n    console.log('我是core')\n}\nexport default kkCore\n"],"names":["kkCore","console","log"],"mappings":"AAAA,SAASA,IACLC,QAAQC,IAAI"}

@@ -1,0 +1,9 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@kk/common': ^1.0.0
+  kk: workspace:npm:@kk/common@^1.0.0
+
+dependencies:
+  '@kk/common': link:../common
+  kk: link:../common
