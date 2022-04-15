@@ -1,6 +1,6 @@
 {
   "name": "@kk/demo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🚗 我是core文件负责全局核心配置",
   "author": "孔丽丽 <1337026037@qq.com>",
   "homepage": "",
@@ -20,7 +20,7 @@
     "dev": "microbundle"
   },
   "dependencies": {
-    "@kk/common": "^1.0.0",
+    "@kk/common": "^1.0.1",
     "kk": "npm:@kk/common@^1.0.0"
   }
 }
