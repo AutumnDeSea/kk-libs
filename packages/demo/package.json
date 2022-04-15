@@ -14,12 +14,13 @@
     "src"
   ],
   "publishConfig": {
-    "registry": "http://127.0.0.0.1:4837/"
+    "registry": "http://127.0.0.1:4837/"
   },
   "scripts": {
     "dev": "microbundle"
   },
   "dependencies": {
     "core": "npm:@kk/core@^1.0.0"
-  }
+  },
+  "gitHead": "d4e4d0ad7645e97f360bfbf54bfb139482126560"
 }
