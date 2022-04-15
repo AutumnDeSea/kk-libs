@@ -18,5 +18,6 @@
   },
   "scripts": {
     "dev": "microbundle"
-  }
+  },
+  "gitHead": "c1b67ae3306005e9c3c89f6bee2534af7fd8dfff"
 }

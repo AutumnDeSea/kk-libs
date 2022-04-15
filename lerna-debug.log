@@ -7,12 +7,140 @@
 1 notice cli v4.0.0
 2 verbose rootPath /Users/konglili/Desktop/kk-libs
 3 info versioning independent
-4 error Error: Unsupported URL Type "workspace:": workspace:npm:@kk/core@^1.0.0
-4 error     at unsupportedURLType (/Users/konglili/Desktop/kk-libs/node_modules/.pnpm/registry.npmmirror.com+npm-package-arg@8.1.5/node_modules/npm-package-arg/npa.js:246:15)
-4 error     at fromURL (/Users/konglili/Desktop/kk-libs/node_modules/.pnpm/registry.npmmirror.com+npm-package-arg@8.1.5/node_modules/npm-package-arg/npa.js:306:13)
-4 error     at Function.resolve (/Users/konglili/Desktop/kk-libs/node_modules/.pnpm/registry.npmmirror.com+npm-package-arg@8.1.5/node_modules/npm-package-arg/npa.js:76:12)
-4 error     at /Users/konglili/Desktop/kk-libs/node_modules/.pnpm/registry.npmmirror.com+@lerna+package-graph@4.0.0/node_modules/@lerna/package-graph/index.js:66:30
-4 error     at Array.forEach (<anonymous>)
-4 error     at /Users/konglili/Desktop/kk-libs/node_modules/.pnpm/registry.npmmirror.com+@lerna+package-graph@4.0.0/node_modules/@lerna/package-graph/index.js:60:38
-4 error     at Map.forEach (<anonymous>)
-4 error     at new PackageGraph (/Users/konglili/Desktop/kk-libs/node_modules/.pnpm/registry.npmmirror.com+@lerna+package-graph@4.0.0/node_modules/@lerna/package-graph/index.js:49:10)
+4 verbose session a098ce1f29f7e72b
+5 verbose user-agent lerna/4.0.0/node@v16.14.2+x64 (darwin)
+6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '4.0.0' }
+7 verbose rootPath /Users/konglili/Desktop/kk-libs
+8 silly isAnythingCommitted
+9 verbose isAnythingCommitted 1
+10 silly getCurrentBranch
+11 verbose currentBranch master
+12 silly remoteBranchExists
+13 silly isBehindUpstream
+14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
+15 silly hasTags
+16 verbose hasTags true
+17 silly git-describe.sync "855d68c" => {"refCount":"3","sha":"855d68c","isDirty":false}
+18 info Assuming all packages changed
+19 verbose updated @kk/core
+20 verbose updated demo
+21 verbose git-describe undefined => "855d68c"
+22 silly git-describe parsed => {"refCount":"3","sha":"855d68c","isDirty":false}
+23 silly independent for @kk/core at /Users/konglili/Desktop/kk-libs/packages/core
+24 verbose getChangelogConfig using preset "conventional-changelog-angular"
+25 silly npa Result {
+25 silly npa   type: 'tag',
+25 silly npa   registry: true,
+25 silly npa   where: undefined,
+25 silly npa   raw: 'conventional-changelog-angular',
+25 silly npa   name: 'conventional-changelog-angular',
+25 silly npa   escapedName: 'conventional-changelog-angular',
+25 silly npa   scope: undefined,
+25 silly npa   rawSpec: '',
+25 silly npa   saveSpec: null,
+25 silly npa   fetchSpec: 'latest',
+25 silly npa   gitRange: undefined,
+25 silly npa   gitCommittish: undefined,
+25 silly npa   hosted: undefined
+25 silly npa }
+26 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
+27 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
+28 verbose independent increment 1.0.1 by patch
+29 silly independent for demo at /Users/konglili/Desktop/kk-libs/packages/demo
+30 verbose independent increment 1.0.1 by patch
+31 info execute Skipping releases
+32 silly lifecycle No script for "preversion" in "root", continuing
+33 silly lifecycle No script for "preversion" in "@kk/core", continuing
+34 silly lifecycle No script for "preversion" in "demo", continuing
+35 silly lifecycle No script for "version" in "@kk/core", continuing
+36 silly independent for @kk/core at /Users/konglili/Desktop/kk-libs/packages/core
+37 silly lifecycle No script for "version" in "demo", continuing
+38 silly independent for demo at /Users/konglili/Desktop/kk-libs/packages/demo
+39 silly independent writing new entry: "## 1.0.2 (2022-04-15)\n\n\n### Bug Fixes\n\n* 手动删除workspace协议 ([7477fde](https://github.com/AutumnDeSea/kk-libs/commit/7477fde2035851d925d1e1d71718fab40e9d212a))\n* wanshan ([5a50000](https://github.com/AutumnDeSea/kk-libs/commit/5a500004fc9b1c69223dc755341cfbbb1df2d5c7))\n\n\n\n"
+40 silly independent writing new entry: "## 1.0.2 (2022-04-15)\n\n\n### Bug Fixes\n\n* wanshan ([5a50000](https://github.com/AutumnDeSea/kk-libs/commit/5a500004fc9b1c69223dc755341cfbbb1df2d5c7))\n\n\n\n"
+41 verbose independent wrote /Users/konglili/Desktop/kk-libs/packages/demo/CHANGELOG.md
+42 verbose independent wrote /Users/konglili/Desktop/kk-libs/packages/core/CHANGELOG.md
+43 silly lifecycle No script for "version" in "root", continuing
+44 silly gitAdd [
+44 silly gitAdd   'packages/core/package.json',
+44 silly gitAdd   'packages/demo/package.json',
+44 silly gitAdd   'packages/demo/CHANGELOG.md',
+44 silly gitAdd   'packages/core/CHANGELOG.md'
+44 silly gitAdd ]
+45 silly gitCommit Publish
+45 silly gitCommit
+45 silly gitCommit  - @kk/core@1.0.2
+45 silly gitCommit  - demo@1.0.2
+46 verbose git [
+46 verbose git   'commit',
+46 verbose git   '-F',
+46 verbose git   '/private/var/folders/fg/38g8vl_j6s9_02_nlyjw4y080000gn/T/c536408c-1288-41b1-8ca2-1649d78feacc/lerna-commit.txt'
+46 verbose git ]
+47 silly gitTag @kk/core@1.0.2
+48 verbose git [ 'tag', '@kk/core@1.0.2', '-m', '@kk/core@1.0.2' ]
+49 silly gitTag demo@1.0.2
+50 verbose git [ 'tag', 'demo@1.0.2', '-m', 'demo@1.0.2' ]
+51 silly lifecycle No script for "postversion" in "@kk/core", continuing
+52 silly lifecycle No script for "postversion" in "demo", continuing
+53 silly lifecycle No script for "postversion" in "root", continuing
+54 info git Pushing tags...
+55 silly gitPush origin master
+56 info publish Publishing packages to npm...
+57 notice Skipping all user and access validation due to third-party registry
+58 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+59 warn ENOLICENSE Packages @kk/core and demo are missing a license.
+59 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
+59 warn ENOLICENSE See https://choosealicense.com for additional guidance.
+60 silly getCurrentSHA
+61 verbose getCurrentSHA c1b67ae3306005e9c3c89f6bee2534af7fd8dfff
+62 silly lifecycle No script for "prepublish" in "root", continuing
+63 silly lifecycle No script for "prepare" in "root", continuing
+64 silly lifecycle No script for "prepublishOnly" in "root", continuing
+65 silly lifecycle No script for "prepack" in "root", continuing
+66 verbose pack-directory packages/core
+67 verbose pack-directory packages/demo
+68 silly lifecycle No script for "prepublish" in "@kk/core", continuing
+69 silly lifecycle No script for "prepublish" in "demo", continuing
+70 silly lifecycle No script for "prepare" in "@kk/core", continuing
+71 silly lifecycle No script for "prepare" in "demo", continuing
+72 silly lifecycle No script for "prepublishOnly" in "@kk/core", continuing
+73 silly lifecycle No script for "prepublishOnly" in "demo", continuing
+74 silly lifecycle No script for "prepack" in "@kk/core", continuing
+75 silly lifecycle No script for "prepack" in "demo", continuing
+76 silly lifecycle No script for "postpack" in "demo", continuing
+77 verbose packed packages/demo
+78 silly lifecycle No script for "postpack" in "@kk/core", continuing
+79 verbose packed packages/core
+80 silly lifecycle No script for "postpack" in "root", continuing
+81 verbose publish @kk/core
+82 verbose publish demo
+83 silly FetchError: request to http://127.0.0.0.1:4837/@kk%2fcore failed, reason: getaddrinfo ENOTFOUND 127.0.0.0.1
+83 silly     at ClientRequest.<anonymous> (/Users/konglili/Desktop/kk-libs/node_modules/.pnpm/registry.npmmirror.com+minipass-fetch@1.4.1/node_modules/minipass-fetch/lib/index.js:110:14)
+83 silly     at ClientRequest.emit (node:events:526:28)
+83 silly     at Socket.socketErrorListener (node:_http_client:442:9)
+83 silly     at Socket.emit (node:events:538:35)
+83 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
+83 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+83 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21)
+83 silly  FetchError: request to http://127.0.0.0.1:4837/@kk%2fcore failed, reason: getaddrinfo ENOTFOUND 127.0.0.0.1
+83 silly     at ClientRequest.<anonymous> (/Users/konglili/Desktop/kk-libs/node_modules/.pnpm/registry.npmmirror.com+minipass-fetch@1.4.1/node_modules/minipass-fetch/lib/index.js:110:14)
+83 silly     at ClientRequest.emit (node:events:526:28)
+83 silly     at Socket.socketErrorListener (node:_http_client:442:9)
+83 silly     at Socket.emit (node:events:538:35)
+83 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
+83 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+83 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21) {
+83 silly   code: 'ENOTFOUND',
+83 silly   errno: 'ENOTFOUND',
+83 silly   syscall: 'getaddrinfo',
+83 silly   hostname: '127.0.0.0.1',
+83 silly   type: 'system'
+83 silly }
+84 error ENOTFOUND request to http://127.0.0.0.1:4837/@kk%2fcore failed, reason: getaddrinfo ENOTFOUND 127.0.0.0.1
+85 error FetchError: request to http://127.0.0.0.1:4837/@kk%2fcore failed, reason: getaddrinfo ENOTFOUND 127.0.0.0.1
+85 error     at ClientRequest.<anonymous> (/Users/konglili/Desktop/kk-libs/node_modules/.pnpm/registry.npmmirror.com+minipass-fetch@1.4.1/node_modules/minipass-fetch/lib/index.js:110:14)
+85 error     at ClientRequest.emit (node:events:526:28)
+85 error     at Socket.socketErrorListener (node:_http_client:442:9)
+85 error     at Socket.emit (node:events:538:35)
+85 error     at emitErrorNT (node:internal/streams/destroy:157:8)
+85 error     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
