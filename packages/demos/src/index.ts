@@ -1,5 +1,6 @@
 import data from '@kk/common';
 import data1 from 'kk';
+console.log(data1);
 type DemoData = {
   userId: number;
   user: string;
