@@ -7,7 +7,7 @@
 1 notice cli v4.0.0
 2 verbose rootPath /Users/konglili/Desktop/kk-libs
 3 info versioning independent
-4 verbose session 02b03b3ed092e1a2
+4 verbose session 711f0de390610e05
 5 verbose user-agent lerna/4.0.0/node@v16.14.2+x64 (darwin)
 6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '4.0.0' }
 7 verbose rootPath /Users/konglili/Desktop/kk-libs
@@ -20,8 +20,8 @@
 14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
 15 silly hasTags
 16 verbose hasTags true
-17 silly git-describe.sync "@kk/core@2.0.2-1-ga095e7a" => {"lastTagName":"@kk/core@2.0.2","lastVersion":"2.0.2","refCount":"1","sha":"a095e7a","isDirty":false}
-18 info Looking for changed packages since @kk/core@2.0.2
+17 silly git-describe.sync "@kk/core@2.0.3-1-g3fed37a" => {"lastTagName":"@kk/core@2.0.3","lastVersion":"2.0.3","refCount":"1","sha":"3fed37a","isDirty":false}
+18 info Looking for changed packages since @kk/core@2.0.3
 19 info ignoring diff in paths matching [ '**/node_modules/**', '**/__snapshots__/**' ]
 20 silly checking diff packages/core
 21 silly found diff in packages/core/package.json
@@ -32,8 +32,8 @@
 25 verbose filtered diff [ 'packages/demo/package.json', 'packages/demo/src/index.ts' ]
 26 verbose updated @kk/core
 27 verbose updated demo
-28 verbose git-describe undefined => "@kk/core@2.0.2-1-ga095e7a"
-29 silly git-describe parsed => {"lastTagName":"@kk/core@2.0.2","lastVersion":"2.0.2","refCount":"1","sha":"a095e7a","isDirty":false}
+28 verbose git-describe undefined => "@kk/core@2.0.3-1-g3fed37a"
+29 silly git-describe parsed => {"lastTagName":"@kk/core@2.0.3","lastVersion":"2.0.3","refCount":"1","sha":"3fed37a","isDirty":false}
 30 silly independent for @kk/core at /Users/konglili/Desktop/kk-libs/packages/core
 31 verbose getChangelogConfig using preset "conventional-changelog-angular"
 32 silly npa Result {
@@ -53,41 +53,41 @@
 32 silly npa }
 33 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
 34 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-35 verbose independent increment 2.0.2 by patch
+35 verbose independent increment 2.0.3 by patch
 36 silly independent for demo at /Users/konglili/Desktop/kk-libs/packages/demo
-37 verbose independent increment 2.0.2 by patch
+37 verbose independent increment 2.0.3 by patch
 38 info execute Skipping releases
 39 silly lifecycle No script for "preversion" in "root", continuing
 40 silly lifecycle No script for "preversion" in "@kk/core", continuing
 41 silly lifecycle No script for "preversion" in "demo", continuing
-42 silly lifecycle No script for "version" in "@kk/core", continuing
-43 silly independent for @kk/core at /Users/konglili/Desktop/kk-libs/packages/core
-44 silly lifecycle No script for "version" in "demo", continuing
-45 silly independent for demo at /Users/konglili/Desktop/kk-libs/packages/demo
-46 silly independent writing new entry: "## [2.0.3](https://github.com/AutumnDeSea/kk-libs/compare/@kk/core@2.0.2...@kk/core@2.0.3) (2022-04-15)\n\n\n### Bug Fixes\n\n* 完善 ([a095e7a](https://github.com/AutumnDeSea/kk-libs/commit/a095e7af5ae839d2d635310d4c45ba5e57a3fd89))\n\n\n\n"
-47 verbose independent wrote /Users/konglili/Desktop/kk-libs/packages/core/CHANGELOG.md
-48 silly independent writing new entry: "## [2.0.3](https://github.com/AutumnDeSea/kk-libs/compare/demo@2.0.2...demo@2.0.3) (2022-04-15)\n\n\n### Bug Fixes\n\n* 完善 ([a095e7a](https://github.com/AutumnDeSea/kk-libs/commit/a095e7af5ae839d2d635310d4c45ba5e57a3fd89))\n\n\n\n"
+42 silly lifecycle No script for "version" in "demo", continuing
+43 silly independent for demo at /Users/konglili/Desktop/kk-libs/packages/demo
+44 silly lifecycle No script for "version" in "@kk/core", continuing
+45 silly independent for @kk/core at /Users/konglili/Desktop/kk-libs/packages/core
+46 silly independent writing new entry: "## [2.0.4](https://github.com/AutumnDeSea/kk-libs/compare/@kk/core@2.0.3...@kk/core@2.0.4) (2022-04-15)\n\n\n### Bug Fixes\n\n* 完善 ([3fed37a](https://github.com/AutumnDeSea/kk-libs/commit/3fed37a187573e687291fa4a2242a379941d2ab2))\n\n\n\n"
+47 silly independent writing new entry: "## [2.0.4](https://github.com/AutumnDeSea/kk-libs/compare/demo@2.0.3...demo@2.0.4) (2022-04-15)\n\n\n### Bug Fixes\n\n* 完善 ([3fed37a](https://github.com/AutumnDeSea/kk-libs/commit/3fed37a187573e687291fa4a2242a379941d2ab2))\n\n\n\n"
+48 verbose independent wrote /Users/konglili/Desktop/kk-libs/packages/core/CHANGELOG.md
 49 verbose independent wrote /Users/konglili/Desktop/kk-libs/packages/demo/CHANGELOG.md
 50 silly lifecycle No script for "version" in "root", continuing
 51 silly gitAdd [
-51 silly gitAdd   'packages/core/package.json',
 51 silly gitAdd   'packages/demo/package.json',
+51 silly gitAdd   'packages/core/package.json',
 51 silly gitAdd   'packages/core/CHANGELOG.md',
 51 silly gitAdd   'packages/demo/CHANGELOG.md'
 51 silly gitAdd ]
 52 silly gitCommit Publish
 52 silly gitCommit
-52 silly gitCommit  - @kk/core@2.0.3
-52 silly gitCommit  - demo@2.0.3
+52 silly gitCommit  - @kk/core@2.0.4
+52 silly gitCommit  - demo@2.0.4
 53 verbose git [
 53 verbose git   'commit',
 53 verbose git   '-F',
-53 verbose git   '/private/var/folders/fg/38g8vl_j6s9_02_nlyjw4y080000gn/T/395b99e9-f741-490c-b003-ef92e67ba4ed/lerna-commit.txt'
+53 verbose git   '/private/var/folders/fg/38g8vl_j6s9_02_nlyjw4y080000gn/T/e4ed5fea-6d38-4c5f-8c60-3e543fa62f84/lerna-commit.txt'
 53 verbose git ]
-54 silly gitTag @kk/core@2.0.3
-55 verbose git [ 'tag', '@kk/core@2.0.3', '-m', '@kk/core@2.0.3' ]
-56 silly gitTag demo@2.0.3
-57 verbose git [ 'tag', 'demo@2.0.3', '-m', 'demo@2.0.3' ]
+54 silly gitTag @kk/core@2.0.4
+55 verbose git [ 'tag', '@kk/core@2.0.4', '-m', '@kk/core@2.0.4' ]
+56 silly gitTag demo@2.0.4
+57 verbose git [ 'tag', 'demo@2.0.4', '-m', 'demo@2.0.4' ]
 58 silly lifecycle No script for "postversion" in "@kk/core", continuing
 59 silly lifecycle No script for "postversion" in "demo", continuing
 60 silly lifecycle No script for "postversion" in "root", continuing
@@ -100,7 +100,7 @@
 66 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
 66 warn ENOLICENSE See https://choosealicense.com for additional guidance.
 67 silly getCurrentSHA
-68 verbose getCurrentSHA 58812b4b098a632ca1fcdba536a3b03fe7be53d2
+68 verbose getCurrentSHA 724cbe70dcf89bbacd1be02553e355d77411967a
 69 silly lifecycle No script for "prepublish" in "root", continuing
 70 silly lifecycle No script for "prepare" in "root", continuing
 71 silly lifecycle No script for "prepublishOnly" in "root", continuing
@@ -111,10 +111,10 @@
 76 silly lifecycle No script for "prepublish" in "demo", continuing
 77 silly lifecycle No script for "prepare" in "@kk/core", continuing
 78 silly lifecycle No script for "prepare" in "demo", continuing
-79 silly lifecycle No script for "prepublishOnly" in "@kk/core", continuing
-80 silly lifecycle No script for "prepublishOnly" in "demo", continuing
-81 silly lifecycle No script for "prepack" in "@kk/core", continuing
-82 silly lifecycle No script for "prepack" in "demo", continuing
+79 silly lifecycle No script for "prepublishOnly" in "demo", continuing
+80 silly lifecycle No script for "prepublishOnly" in "@kk/core", continuing
+81 silly lifecycle No script for "prepack" in "demo", continuing
+82 silly lifecycle No script for "prepack" in "@kk/core", continuing
 83 silly lifecycle No script for "postpack" in "demo", continuing
 84 verbose packed packages/demo
 85 silly lifecycle No script for "postpack" in "@kk/core", continuing

@@ -2,5 +2,5 @@
 import core from '@kk/core'
 core()
 function demo() {
-    console.log('我是demo2仓库')
+    console.log('我是demo3仓库')
 }

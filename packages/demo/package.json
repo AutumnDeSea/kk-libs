@@ -22,5 +22,5 @@
   "dependencies": {
     "core": "npm:@kk/core@^1.0.0"
   },
-  "gitHead": "58812b4b098a632ca1fcdba536a3b03fe7be53d2"
+  "gitHead": "724cbe70dcf89bbacd1be02553e355d77411967a"
 }
