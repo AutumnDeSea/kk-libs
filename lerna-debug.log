@@ -7,7 +7,7 @@
 1 notice cli v4.0.0
 2 verbose rootPath /Users/konglili/Desktop/kk-libs
 3 info versioning independent
-4 verbose session 3deeff287ec1bed5
+4 verbose session 86295d6f63c1ba26
 5 verbose user-agent lerna/4.0.0/node@v16.14.2+x64 (darwin)
 6 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '4.0.0' }
 7 verbose rootPath /Users/konglili/Desktop/kk-libs
@@ -20,8 +20,8 @@
 14 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 1
 15 silly hasTags
 16 verbose hasTags true
-17 silly git-describe.sync "@kk/core@2.0.4-1-g6634370" => {"lastTagName":"@kk/core@2.0.4","lastVersion":"2.0.4","refCount":"1","sha":"6634370","isDirty":false}
-18 info Looking for changed packages since @kk/core@2.0.4
+17 silly git-describe.sync "@kk/core@2.0.5-1-g8e6ec2c" => {"lastTagName":"@kk/core@2.0.5","lastVersion":"2.0.5","refCount":"1","sha":"8e6ec2c","isDirty":false}
+18 info Looking for changed packages since @kk/core@2.0.5
 19 info ignoring diff in paths matching [ '**/node_modules/**', '**/__snapshots__/**' ]
 20 silly checking diff packages/core
 21 silly found diff in packages/core/package.json
@@ -32,8 +32,8 @@
 25 verbose filtered diff [ 'packages/demo/package.json', 'packages/demo/src/index.ts' ]
 26 verbose updated @kk/core
 27 verbose updated demo
-28 verbose git-describe undefined => "@kk/core@2.0.4-1-g6634370"
-29 silly git-describe parsed => {"lastTagName":"@kk/core@2.0.4","lastVersion":"2.0.4","refCount":"1","sha":"6634370","isDirty":false}
+28 verbose git-describe undefined => "@kk/core@2.0.5-1-g8e6ec2c"
+29 silly git-describe parsed => {"lastTagName":"@kk/core@2.0.5","lastVersion":"2.0.5","refCount":"1","sha":"8e6ec2c","isDirty":false}
 30 silly independent for @kk/core at /Users/konglili/Desktop/kk-libs/packages/core
 31 verbose getChangelogConfig using preset "conventional-changelog-angular"
 32 silly npa Result {
@@ -53,9 +53,9 @@
 32 silly npa }
 33 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
 34 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-35 verbose independent increment 2.0.4 by patch
+35 verbose independent increment 2.0.5 by patch
 36 silly independent for demo at /Users/konglili/Desktop/kk-libs/packages/demo
-37 verbose independent increment 2.0.4 by patch
+37 verbose independent increment 2.0.5 by patch
 38 info execute Skipping releases
 39 silly lifecycle No script for "preversion" in "root", continuing
 40 silly lifecycle No script for "preversion" in "@kk/core", continuing
@@ -64,9 +64,9 @@
 43 silly independent for demo at /Users/konglili/Desktop/kk-libs/packages/demo
 44 silly lifecycle No script for "version" in "@kk/core", continuing
 45 silly independent for @kk/core at /Users/konglili/Desktop/kk-libs/packages/core
-46 silly independent writing new entry: "## [2.0.5](https://github.com/AutumnDeSea/kk-libs/compare/demo@2.0.4...demo@2.0.5) (2022-04-15)\n\n\n### Bug Fixes\n\n* 完善 ([6634370](https://github.com/AutumnDeSea/kk-libs/commit/66343702a824e9da4ad70d082f152bb605757af5))\n\n\n\n"
+46 silly independent writing new entry: "## [2.0.6](https://github.com/AutumnDeSea/kk-libs/compare/demo@2.0.5...demo@2.0.6) (2022-04-15)\n\n\n### Bug Fixes\n\n* 完善 ([8e6ec2c](https://github.com/AutumnDeSea/kk-libs/commit/8e6ec2c23385df0bdc7b87dc047df96433665819))\n\n\n\n"
 47 verbose independent wrote /Users/konglili/Desktop/kk-libs/packages/demo/CHANGELOG.md
-48 silly independent writing new entry: "## [2.0.5](https://github.com/AutumnDeSea/kk-libs/compare/@kk/core@2.0.4...@kk/core@2.0.5) (2022-04-15)\n\n\n### Bug Fixes\n\n* 完善 ([6634370](https://github.com/AutumnDeSea/kk-libs/commit/66343702a824e9da4ad70d082f152bb605757af5))\n\n\n\n"
+48 silly independent writing new entry: "## [2.0.6](https://github.com/AutumnDeSea/kk-libs/compare/@kk/core@2.0.5...@kk/core@2.0.6) (2022-04-15)\n\n\n### Bug Fixes\n\n* 完善 ([8e6ec2c](https://github.com/AutumnDeSea/kk-libs/commit/8e6ec2c23385df0bdc7b87dc047df96433665819))\n\n\n\n"
 49 verbose independent wrote /Users/konglili/Desktop/kk-libs/packages/core/CHANGELOG.md
 50 silly lifecycle No script for "version" in "root", continuing
 51 silly gitAdd [
@@ -77,17 +77,17 @@
 51 silly gitAdd ]
 52 silly gitCommit Publish
 52 silly gitCommit
-52 silly gitCommit  - @kk/core@2.0.5
-52 silly gitCommit  - demo@2.0.5
+52 silly gitCommit  - @kk/core@2.0.6
+52 silly gitCommit  - demo@2.0.6
 53 verbose git [
 53 verbose git   'commit',
 53 verbose git   '-F',
-53 verbose git   '/private/var/folders/fg/38g8vl_j6s9_02_nlyjw4y080000gn/T/bfa29ce2-64bd-44a7-bb69-caf41d671632/lerna-commit.txt'
+53 verbose git   '/private/var/folders/fg/38g8vl_j6s9_02_nlyjw4y080000gn/T/3d3d83e3-5972-4f80-b7f2-1454c9e7b1df/lerna-commit.txt'
 53 verbose git ]
-54 silly gitTag @kk/core@2.0.5
-55 verbose git [ 'tag', '@kk/core@2.0.5', '-m', '@kk/core@2.0.5' ]
-56 silly gitTag demo@2.0.5
-57 verbose git [ 'tag', 'demo@2.0.5', '-m', 'demo@2.0.5' ]
+54 silly gitTag @kk/core@2.0.6
+55 verbose git [ 'tag', '@kk/core@2.0.6', '-m', '@kk/core@2.0.6' ]
+56 silly gitTag demo@2.0.6
+57 verbose git [ 'tag', 'demo@2.0.6', '-m', 'demo@2.0.6' ]
 58 silly lifecycle No script for "postversion" in "@kk/core", continuing
 59 silly lifecycle No script for "postversion" in "demo", continuing
 60 silly lifecycle No script for "postversion" in "root", continuing
@@ -100,7 +100,7 @@
 66 warn ENOLICENSE One way to fix this is to add a LICENSE.md file to the root of this repository.
 66 warn ENOLICENSE See https://choosealicense.com for additional guidance.
 67 silly getCurrentSHA
-68 verbose getCurrentSHA 903563c6a591a364e8d4b5e0fad2150e3d30caa4
+68 verbose getCurrentSHA 3da2b1bd37e89b338776ea9fdd43a556c994b00c
 69 silly lifecycle No script for "prepublish" in "root", continuing
 70 silly lifecycle No script for "prepare" in "root", continuing
 71 silly lifecycle No script for "prepublishOnly" in "root", continuing
@@ -111,8 +111,8 @@
 76 silly lifecycle No script for "prepublish" in "demo", continuing
 77 silly lifecycle No script for "prepare" in "@kk/core", continuing
 78 silly lifecycle No script for "prepare" in "demo", continuing
-79 silly lifecycle No script for "prepublishOnly" in "@kk/core", continuing
-80 silly lifecycle No script for "prepublishOnly" in "demo", continuing
+79 silly lifecycle No script for "prepublishOnly" in "demo", continuing
+80 silly lifecycle No script for "prepublishOnly" in "@kk/core", continuing
 81 silly lifecycle No script for "prepack" in "demo", continuing
 82 silly lifecycle No script for "prepack" in "@kk/core", continuing
 83 silly lifecycle No script for "postpack" in "demo", continuing
@@ -122,7 +122,7 @@
 87 silly lifecycle No script for "postpack" in "root", continuing
 88 verbose publish @kk/core
 89 verbose publish demo
-90 silly FetchError: request to http://127.0.0.1:4837/demo failed, reason: connect ECONNREFUSED 127.0.0.1:4837
+90 silly FetchError: request to http://127.0.0.1:4837/@kk%2fcore failed, reason: connect ECONNREFUSED 127.0.0.1:4837
 90 silly     at ClientRequest.<anonymous> (/Users/konglili/Desktop/kk-libs/node_modules/.pnpm/registry.npmmirror.com+minipass-fetch@1.4.1/node_modules/minipass-fetch/lib/index.js:110:14)
 90 silly     at ClientRequest.emit (node:events:526:28)
 90 silly     at Socket.socketErrorListener (node:_http_client:442:9)
@@ -130,7 +130,7 @@
 90 silly     at emitErrorNT (node:internal/streams/destroy:157:8)
 90 silly     at emitErrorCloseNT (node:internal/streams/destroy:122:3)
 90 silly     at processTicksAndRejections (node:internal/process/task_queues:83:21)
-90 silly  FetchError: request to http://127.0.0.1:4837/demo failed, reason: connect ECONNREFUSED 127.0.0.1:4837
+90 silly  FetchError: request to http://127.0.0.1:4837/@kk%2fcore failed, reason: connect ECONNREFUSED 127.0.0.1:4837
 90 silly     at ClientRequest.<anonymous> (/Users/konglili/Desktop/kk-libs/node_modules/.pnpm/registry.npmmirror.com+minipass-fetch@1.4.1/node_modules/minipass-fetch/lib/index.js:110:14)
 90 silly     at ClientRequest.emit (node:events:526:28)
 90 silly     at Socket.socketErrorListener (node:_http_client:442:9)
@@ -145,8 +145,8 @@
 90 silly   port: 4837,
 90 silly   type: 'system'
 90 silly }
-91 error ECONNREFUSED request to http://127.0.0.1:4837/demo failed, reason: connect ECONNREFUSED 127.0.0.1:4837
-92 error FetchError: request to http://127.0.0.1:4837/demo failed, reason: connect ECONNREFUSED 127.0.0.1:4837
+91 error ECONNREFUSED request to http://127.0.0.1:4837/@kk%2fcore failed, reason: connect ECONNREFUSED 127.0.0.1:4837
+92 error FetchError: request to http://127.0.0.1:4837/@kk%2fcore failed, reason: connect ECONNREFUSED 127.0.0.1:4837
 92 error     at ClientRequest.<anonymous> (/Users/konglili/Desktop/kk-libs/node_modules/.pnpm/registry.npmmirror.com+minipass-fetch@1.4.1/node_modules/minipass-fetch/lib/index.js:110:14)
 92 error     at ClientRequest.emit (node:events:526:28)
 92 error     at Socket.socketErrorListener (node:_http_client:442:9)

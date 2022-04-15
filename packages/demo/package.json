@@ -14,7 +14,7 @@
     "src"
   ],
   "publishConfig": {
-    "registry": "http://127.0.0.1:4837/"
+    "registry": "http://127.0.0.1:4873/"
   },
   "scripts": {
     "dev": "microbundle"
@@ -22,5 +22,5 @@
   "dependencies": {
     "core": "npm:@kk/core@^1.0.0"
   },
-  "gitHead": "903563c6a591a364e8d4b5e0fad2150e3d30caa4"
+  "gitHead": "3da2b1bd37e89b338776ea9fdd43a556c994b00c"
 }
