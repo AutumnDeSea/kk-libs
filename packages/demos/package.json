@@ -21,6 +21,6 @@
   },
   "dependencies": {
     "@kk/common": "^1.0.0",
-    "kk": "workspace:npm:@kk/common@^1.0.0"
+    "kk": "npm:@kk/common@^1.0.0"
   }
 }
