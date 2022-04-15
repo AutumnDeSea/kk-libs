@@ -20,6 +20,6 @@
     "dev": "microbundle"
   },
   "dependencies": {
-    "core": "workspace:npm:@kk/core@^1.0.0"
+    "core": "npm:@kk/core@^1.0.0"
   }
 }
