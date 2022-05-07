@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.1](https://github.com/AutumnDeSea/kk-libs/compare/@kk/demo@3.1.0...@kk/demo@3.1.1) (2022-05-07)
+
+
+### Bug Fixes
+
+* 升级依赖 ([db3e45f](https://github.com/AutumnDeSea/kk-libs/commit/db3e45f2fab01481c96a3a04b6e5783b8c3e24dd))
+
+
+
+
+
 # [3.1.0](https://github.com/AutumnDeSea/kk-libs/compare/@kk/demo@1.1.0...@kk/demo@3.1.0) (2022-05-07)
 
 
