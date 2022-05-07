@@ -1,7 +1,7 @@
 import data from '@kk/common';
-import data1 from 'kk';
+// import data1 from 'kk';
 import { createMachine, interpret } from 'xstate';
-console.log(data1);
+// console.log(data1);
 type DemoData = {
   userId: number;
   user: string;

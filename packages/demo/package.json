@@ -21,8 +21,7 @@
     "lib:test": "node scripts/test.js"
   },
   "dependencies": {
-    "@kk/common": "^1.1.0",
-    "kk": "npm:@kk/common@^1.0.0",
+    "@kk/common": "^3.0.1",
     "xstate": "^4.32.0"
   }
 }

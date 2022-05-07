@@ -1,13 +1,11 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@kk/common': workspace:^1.0.1
-  kk: workspace:npm:@kk/common@^1.0.0
+  '@kk/common': workspace:^3.0.1
   xstate: ^4.32.0
 
 dependencies:
   '@kk/common': link:../common
-  kk: link:../common
   xstate: 4.32.0
 
 packages:
