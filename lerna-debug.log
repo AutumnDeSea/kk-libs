@@ -7,7 +7,7 @@
 1 notice cli v4.0.0
 2 verbose rootPath /Users/konglili/Desktop/kk-libs
 3 info versioning independent
-4 error Error: Unsupported URL Type "workspace:": workspace:npm:@kk/common@^1.0.0
+4 error Error: Unsupported URL Type "workspace:": workspace:^1.0.1
 4 error     at unsupportedURLType (/Users/konglili/Desktop/kk-libs/node_modules/.pnpm/registry.npmmirror.com+npm-package-arg@8.1.5/node_modules/npm-package-arg/npa.js:246:15)
 4 error     at fromURL (/Users/konglili/Desktop/kk-libs/node_modules/.pnpm/registry.npmmirror.com+npm-package-arg@8.1.5/node_modules/npm-package-arg/npa.js:306:13)
 4 error     at Function.resolve (/Users/konglili/Desktop/kk-libs/node_modules/.pnpm/registry.npmmirror.com+npm-package-arg@8.1.5/node_modules/npm-package-arg/npa.js:76:12)

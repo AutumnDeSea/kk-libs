@@ -1,0 +1,17 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@kk/common': workspace:^1.0.1
+  kk: workspace:npm:@kk/common@^1.0.0
+  xstate: ^4.32.0
+
+dependencies:
+  '@kk/common': link:../common
+  kk: link:../common
+  xstate: 4.32.0
+
+packages:
+
+  /xstate/4.32.0:
+    resolution: {integrity: sha512-62gETqwnw4pBRe+tVWMt8hLgWEU8lq2qO8VN5PWmTELceRVt3I1bu1cwdraVRHUn4Bb2lnhNzn1A73oShuC+8g==}
+    dev: false

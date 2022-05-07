@@ -1,0 +1,19 @@
+{
+  // 展示编译细节
+  "verbose": true, 
+  "testEnvironment": "node",
+  // 收集覆盖率
+  "collectCoverage": true,
+  // 忽略文件
+  "testPathIgnorePatterns": ["/node_modules/"],
+  "coverageReporters": ["lcov", "json"],
+  // 收集哪些单测试
+  "collectCoverageFrom": ["**/src/**"],
+  // ts文件的处理
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  // 测试的目标文件
+  "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+}
