@@ -23,5 +23,6 @@
   "dependencies": {
     "@kk/common": "^3.0.1",
     "xstate": "^4.32.0"
-  }
+  },
+  "gitHead": "e6a7bed65b66c625171a7f6d142dc77227966731"
 }
