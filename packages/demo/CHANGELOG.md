@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.5](https://github.com/AutumnDeSea/kk-libs/compare/@kk/demo@3.1.4...@kk/demo@3.1.5) (2022-05-20)
+
+**Note:** Version bump only for package @kk/demo
+
+
+
+
+
 ## [3.1.4](https://github.com/AutumnDeSea/kk-libs/compare/@kk/demo@3.1.3...@kk/demo@3.1.4) (2022-05-20)
 
 

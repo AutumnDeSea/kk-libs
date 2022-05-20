@@ -1,6 +1,6 @@
 {
   "name": "@kk/demo",
-  "version": "3.1.4",
+  "version": "3.1.5",
   "description": "🚗 我是core文件负责全局核心配置",
   "author": "孔丽丽 <1337026037@qq.com>",
   "homepage": "",
@@ -21,7 +21,7 @@
     "lib:test": "node scripts/test.js"
   },
   "dependencies": {
-    "@kk/common": "^3.0.1",
+    "@kk/common": "^3.0.3",
     "xstate": "^4.32.0"
   },
   "gitHead": "be11590d0180e6184a6d2f0334376501fd0010bc"
