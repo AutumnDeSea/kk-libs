@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@kk/common': workspace:^3.0.1
+  '@kk/common': ^3.0.1
   xstate: ^4.32.0
 
 dependencies:

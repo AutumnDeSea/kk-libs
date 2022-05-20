@@ -46,6 +46,7 @@ toggleService.onTransition((state) => {
   });
   //windows上的应用
   window.dispatchEvent(new Event('toggle'));
+  // 事件派发
   window.dispatchEvent(selectionFired);
 })
 
