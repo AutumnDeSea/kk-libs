@@ -11,7 +11,7 @@ const normalTask = () => {
   return new Promise<DemoData>((resolve, reject) => {
     setTimeout(() => {
       if (Math.random() > 0.5) {
-        resolve({ userId: Math.random(), user: 'laoyuan', error: null });
+        resolve({ userId: Math.random(), user: 'laoyuan', error: null, data });
       } else {
         reject({ userId: 0, user: '', error: new Error('测试') });
       }
@@ -49,8 +49,12 @@ toggleService.onTransition((state) => {
   // 事件派发
   window.dispatchEvent(selectionFired);
 })
+const fetchCuteAnimals = () => {
+  return normalTask()
+}
 
-export { normalTask, DemoData,toggleService };
+export { normalTask, fetchCuteAnimals, toggleService };
+export type { DemoData }
 
-console.log('data... ', data);
+// console.log('data... ', data);
 
