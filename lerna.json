@@ -1,15 +1,20 @@
 {
   "npmClient": "pnpm",
-  "packages": [
-    "packages/*"
-  ],
+  "useNx": true,
   "version": "independent",
+  "publishConfig": {
+    "registry": "http://localhost:4873/"
+  },
   "command": {
     "publish": {
       "conventionalCommits": true,
-      "messages":"[skup ci] chore:release"
+      "messages": "[skup ci] chore:release"
     }
   },
   "useWorkspaces": true,
-  "ignoreChanges": ["**/node_modules/**", "**/__snapshots__/**"]
+  "ignoreChanges": [
+    "**/node_modules/**",
+    "**/__snapshots__/**"
+  ],
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json"
 }
