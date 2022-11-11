@@ -1,6 +1,6 @@
 {
   "name": "@yd/components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.ts",
   "scripts": {
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@yd/hooks": "workspace:^1.0.0"
+    "@yd/hooks": "workspace:^1.0.1"
   }
 }
